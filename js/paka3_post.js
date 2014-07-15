@@ -55,7 +55,7 @@ $(document).ready(function(){
                   $("#res").append("<li>");
                   $("#res").append("<h3>"+response[i].post_title+"</h3>");
                   $("#res").append("<div>"+response[i].post_date+"</div>");
-                  //$("#res").append("<div>"+response[i].post_content+"</div>");
+                  $("#res").append("<div>"+response[i].post_content+"</div>");
                   $("#res").append("</li>");
                 }
                 if(response.length != 0){
